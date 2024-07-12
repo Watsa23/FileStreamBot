@@ -1,13 +1,13 @@
 from os import environ as env
 
 class Telegram:
-    API_ID = int(env.get("TELEGRAM_API_ID", 1234))
-    API_HASH = env.get("TELEGRAM_API_HASH", "xyz")
-    OWNER_ID = int(env.get("OWNER_ID", 1234567890))
-    ALLOWED_USER_IDS = env.get("ALLOWED_USER_IDS", "").split()
-    BOT_USERNAME = env.get("TELEGRAM_BOT_USERNAME", "BotFather")
-    BOT_TOKEN = env.get("TELEGRAM_BOT_TOKEN", "1234:abcd")
-    CHANNEL_ID = int(env.get("TELEGRAM_CHANNEL_ID", -1001234567890))
+    API_ID = int(env.get("TELEGRAM_API_ID", "15257211"))
+    API_HASH = env.get("TELEGRAM_API_HASH", "8b7cf73ce577720d74a213bbb98f4104")
+    OWNER_ID = int(env.get("OWNER_ID", "1350212613"))
+    ALLOWED_USER_IDS = env.get("ALLOWED_USER_IDS", "1350212613 6124951040").split()
+    BOT_USERNAME = env.get("TELEGRAM_BOT_USERNAME", "tester330123_bot")
+    BOT_TOKEN = env.get("TELEGRAM_BOT_TOKEN", "7334566762:AAG6cNWWMzONS3XviK2D57NA0bU0dCK-1eo")
+    CHANNEL_ID = int(env.get("TELEGRAM_CHANNEL_ID", "-1001583883335"))
     SECRET_CODE_LENGTH = int(env.get("SECRET_CODE_LENGTH", 12))
 
 class Server:
